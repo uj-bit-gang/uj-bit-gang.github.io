@@ -9,7 +9,10 @@ h1{
     margin: 0;
 }
 h2{
+    margin: 0 0 3% 0;
     text-decoration: underline;
+    text-align: center;
+    text-underline-offset: 2px ;
 }
 h4{
     margin: 1%;
@@ -33,17 +36,23 @@ img{
 .header{
     margin-top: 0;
     text-align: center;
+    padding: 20px;
 }
 .ad{
     margin: 5% 0;
 }
-.intro, .contact p, .donate p{
+.intro{
+    padding: 20px 20%;
+    margin: 2% 0;
+}
+.contact p, .donate p{
     padding: 0% 20%;
     margin: 2% 0;
 }
 .task-wapper{
     text-align: center;
     margin: 0 10%; 
+    padding: 20px;
 }
 .complete{
     color: grey;
@@ -118,7 +127,7 @@ table{
     border-radius: 2%;
 }
 .tutorials{
-    padding: 0 10%;
+    padding: 20px 10%;
 }
 .module-head{
     height: fit-content;
@@ -181,6 +190,9 @@ table{
     color: orange;
     text-decoration: none;
 }
+.donate, .contact{
+    padding: 20px;
+}
 .contact-wrapper{
     font-size: larger;
     padding: 0% 30%;
@@ -196,14 +208,32 @@ footer{
     width: 50px;
     margin: 0 0 0 12px;
 }
-.top{
+.scroll{
+    width: 50px;
+    height: 50px;
     z-index: 5;
     padding: 1%;
     border-radius: 50%;
     background-color: black;
     position: relative;
     top: -5vh;
-    left: 45vw;
+    left: 90vw;
+    flex-direction: column;
+}
+.zmdi::before{
+    color: orange;
+    font-size: 60px;
+}
+.zmdi-unfold-more::before{
+    margin-left: 20px;
+    font-size: 20px !important;
+}
+.zmdi-alert-circle-o::before{
+    font-size: 12px !important;
+}
+.zmdi-chevron-up::before{
+    height: 20px;
+    width: auto;  
 }
 @media (max-width: 768px) {
     img{

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
 </head>
 <body>
-    <p style="font-size: 11px;">Website is updated @18:00 everyday.</p> 
+    <p style="font-size: 11px;"><i class="zmdi zmdi-alert-circle-o"></i> Website is updated @18:00 everyday.</p> 
     <div class="header">
         <img src="images/logo.jpg" alt="university of johannesburg logo">
         <h1>UJ Business IT Gang</h1>
@@ -26,7 +26,11 @@
     
 
     <div class="task-wapper">
-    <h2>Due dates</h2>    
+        <div>
+            <i class="zmdi zmdi-calendar"></i>
+            <h2>Due dates</h2>    
+        </div>
+    
         <div class="tasks">
             <table>
                 <tr class="table-head">
@@ -76,7 +80,11 @@
         </script></div>
 
         <div class="text-book">
-            <h2>Request a text-book</h2>
+            <div>
+                <i class="zmdi zmdi-copy"></i>
+                <h2>Request a text-book</h2>
+            </div>
+            
             <p>Need a text-book? Fill this form with your student number and email. The text-books shared here are stictly for University of Johannesburg 
                 Business IT students. <br> Student number will be verified before text-book is emailed to you.
             </p>
@@ -121,10 +129,14 @@
 -------------------------------------------------------------------------------->
 
         <div class="tutorials">
-            <h2>Tutorials</h2>
+            <div>
+                <i class="zmdi zmdi-assignment"></i>
+                <h2>Tutorials</h2>
+            </div>
+            
             <div class="module-wrapper">
                 <button class="toggle">
-                    <h4>1. Business Analysis Tutorials</h4>
+                    <h4>1. Business Analysis Tutorials<i class="zmdi zmdi-unfold-more"></i></h4>
                     <i class="fa fa-plus icon" aria-hidden="true"></i>
                 </button>
                 <div class="module-content">
@@ -142,7 +154,7 @@
 
             <div class="module-wrapper">
                 <button class="toggle">
-                    <h4>2. Development Software Tutorials</h4>
+                    <h4>2. Development Software Tutorials<i class="zmdi zmdi-unfold-more"></i></h4>
                     <i class="fa fa-plus icon" aria-hidden="true"></i>
                 </button>
                 <div class="module-content">
@@ -160,7 +172,7 @@
 
             <div class="module-wrapper">
                 <button class="toggle">
-                    <h4>3. Systems Software Tutorials</h4>
+                    <h4>3. Systems Software Tutorials<i class="zmdi zmdi-unfold-more"></i></h4>
                     <i class="fa fa-plus icon" aria-hidden="true"></i>
                 </button>
                 <div class="module-content">
@@ -177,7 +189,7 @@
 -------------------------------------------------------------------------------->
             <div class="module-wrapper">
                 <button class="toggle">
-                    <h4>4. Infomation Systems Tutorials</h4>
+                    <h4>4. Infomation Systems Tutorials<i class="zmdi zmdi-unfold-more"></i></h4>
                     <i class="fa fa-plus icon" aria-hidden="true"></i>
                 </button>
                 <div class="module-content">
@@ -204,18 +216,24 @@
         </script></div>
 
         <div class="donate">
-            <h2>Donate</h2>
+            <div>
+                <i class="zmdi zmdi-favorite"></i>
+                <h2>Donate</h2>
+            </div>
             <p>This website helped you somehow or you Want all these ads gone? Please make a donatin from as little as R5.00 for us to keep the site up, up-to-date and ad free.</p>
 
             <p>Sercure payments via <img class="payfast-img" src="https://www.payfast.co.za/assets/images/logos-and-images/payfast-logo-black.svg" alt="payfast-logo-black"></p>
         </div>
 
         <div class="contact">
-            <h2>Contact</h2>
+            <div>
+                <i class="zmdi zmdi-phone"></i>
+                <h2>Contact</h2>
+            </div>
             <p>There is incorrect information, want to leave a feedback or you just want to chat? Here you can reach us.</p>
             <div class="contact-wrapper row">
-                <a class="link" href="mailto:22002919@student.uj.ac.za"><div><i></i>Email</div></a>
-                <a class="link" href="+27681721606"><div><i></i>+27 68 172 1606</div></a>
+                <a class="link" href="mailto:22002919@student.uj.ac.za"><div><p><i class="zmdi zmdi-email"></i></p> Email</div></a>
+                <a class="link" href="https://wa.link/bsctgt"><div><p><i class="zmdi zmdi-whatsapp"></i></p> +27 68 172 1606</div></a>
             </div>
         </div>
     </div>
@@ -235,7 +253,10 @@
             </div>
             <p style="font-size: small;">Designed by 220023913</p>
         </div>
-        <a class="top link" href="">Top</a>
+        <div class="scroll">
+            <a href=""><i class="zmdi zmdi-chevron-up"></i></a>
+        </div>
+        
     </footer>   
     <script src="script.js"></script>
 </body>
