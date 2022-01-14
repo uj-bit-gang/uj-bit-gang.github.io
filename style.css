@@ -261,9 +261,12 @@ footer{
         left: 35%;
         margin: 5% 0;
     }
-    .intro, .text-book p, .contact p{
+    .intro{
+        margin-bottom: 10% !important;
+    }
+    .intro, .text-book p, .contact p, .donate p{
         padding: 0% 15%;
-        margin: 2% 0;
+        margin: 5% 0;
     }
     .ad{
         margin: 1% 0;
@@ -278,6 +281,9 @@ footer{
     .text-book, .contact{
         padding: 3%;
     }
+    .tutorials{
+        padding: 20px 5%;
+    }
     .row label{
         font-size: 14px;
         padding: 1% 0;
@@ -290,6 +296,9 @@ footer{
     .scroll{
         top: -5vh;
         left: 80vw;
+    }
+    .donate-form{
+        padding: 0% 10%;
     }
 
 }
