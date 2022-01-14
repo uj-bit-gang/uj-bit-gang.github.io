@@ -7,6 +7,19 @@ $ifs .= $_POST['ifs'];
 $dsw .= $_POST['dsw'];
 $ssw .= $_POST['ssw'];
 $word = "@student.uj.ac.za";
+
+if($bay == true){
+    $bay = "BAY";
+}
+if($ifs == true){
+    $ifs = "IFS";
+}
+if($ssw == true){
+    $ssw = "SSW";
+}
+if($dsw == true){
+    $dsw = "DSW";
+}
  
 if(strpos($visitor_email, $word) == false){
     header("location: https://uj-bit-gang.github.io/fail.html");
@@ -16,7 +29,7 @@ if(strpos($visitor_email, $word) == false){
     $subject = "Text Book Request";
         
     $message = "Student: $name with email: $visitor_email";
-    $message .= "Request: $dsw, $ssw, $dsw, $bay text-book(s)";
+    $message .= "Request: $dsw ___ $ssw ___ $ifs ___ $bay text-book(s)";
             
     $header = "From:info@newginvestments.co.za \r\n";
     $header .= "MIME-Version: 1.0\r\n";
