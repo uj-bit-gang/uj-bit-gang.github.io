@@ -334,7 +334,7 @@ footer{
     }
     .thank-you-p{
         font-style: italic !important;
-        font-size: 0.8em !important;
+        font-size: 2em !important;
         margin-bottom: 20px !important;
         word-wrap: break-word;
     }
@@ -344,7 +344,7 @@ footer{
         word-wrap: break-word;
     }
     .zmdi-coffee::before{
-        font-size: 1em;
+        font-size: 15em;
     }
     .thank-ad{
         height: 50px !important;
