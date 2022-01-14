@@ -267,9 +267,9 @@ footer{
         margin: 0 5%;
         flex-direction: column;
     }
-    .top{
-        left: 40vw;
-        top: -3vh;
+    .scroll{
+        top: -5vh;
+        left: 80vw;
     }
 
 }
