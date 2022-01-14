@@ -283,6 +283,9 @@ footer{
 .zmdi-notifications-active::before{
     font-size: 15em;
 }
+.zmdi-alert-triangle::before{
+    font-size: 12em !important;
+}
 /*****************Mobile Screens*-**********************/
 @media (max-width: 768px) {
     img{
