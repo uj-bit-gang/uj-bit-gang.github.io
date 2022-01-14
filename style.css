@@ -255,6 +255,35 @@ footer{
     height: 20px;
     width: auto;  
 }
+/******************Thank You Page********************/
+.thank-you, .success{
+    margin-top: 7.5%;
+}
+.thank-you-p{
+    font-style: italic !important;
+    font-size: 5em !important;
+    margin-bottom: 20px !important;
+}
+.thank-you p{
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+.zmdi-coffee::before{
+    font-size: 20em;
+}
+.thank-ad{
+    height: 50px !important;
+}
+/*******************Success PAge*********************/
+.success-p{
+    font-style: italic !important;
+    font-size: 2em !important;
+    margin-bottom: 20px !important;
+}
+.zmdi-notifications-active::before{
+    font-size: 15em;
+}
+/*****************Mobile Screens*-**********************/
 @media (max-width: 768px) {
     img{
         width: 30%;
@@ -300,5 +329,25 @@ footer{
     .donate-form{
         padding: 0% 10%;
     }
-
+    .thank-you, .success{
+        margin-top: 7.5%;
+    }
+    .thank-you-p{
+        font-style: italic !important;
+        font-size: 0.8em !important;
+        margin-bottom: 20px !important;
+        word-wrap: break-word;
+    }
+    .thank-you p{
+        font-size: 15px;
+        margin-bottom: 2px;
+        word-wrap: break-word;
+    }
+    .zmdi-coffee::before{
+        font-size: 1em;
+    }
+    .thank-ad{
+        height: 50px !important;
+        width: 100vw;
+    }
 }
