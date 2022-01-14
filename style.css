@@ -1,12 +1,240 @@
-*{
-    display: block;
-    position: relative;
-    width: 100%;
+body{
+    text-align: center;
+    /*background-color: black;*/
+    margin: 0;
+    padding: 5px;
 }
 h1{
-    color: pink;
-    text-align: center;
+    color: rgb(255, 60, 0);
+    margin: 0;
+}
+h2{
+    text-decoration: underline;
+}
+h4{
+    margin: 1%;
+}
+p{
+    margin: 0%;
+    font-size: 20px;
 }
 i{
     color: blue;
+}
+img{
+    text-align: center;
+    width: 10vw;
+    height: auto;
+    align-self: center;
+    margin: 3% 0 3% 0;
+    border-radius: 5%;
+    box-shadow: 1px 1px 50px 1px rgb(133, 133, 133) ;
+}
+.header{
+    margin-top: 0;
+    text-align: center;
+}
+.ad{
+    margin: 5% 0;
+}
+.intro, .contact p, .donate p{
+    padding: 0% 20%;
+    margin: 2% 0;
+}
+.task-wapper{
+    text-align: center;
+    margin: 0 10%; 
+}
+.complete{
+    color: grey;
+    text-decoration: line-through;
+}
+.this-week{
+    color: red;
+}
+table{
+    border: 1px solid black;
+}
+.line {
+    border-bottom: 1px solid black !important;
+}
+
+.table-head{
+    font-size: 18px;
+    font-weight: bold;
+    border-top:  solid black;
+    border-bottom:  solid black;
+}
+.count{
+    width: 2% !important;
+}
+.table-head td{
+    width: 5%;
+    padding: 1%;
+}
+.table-task td{
+    padding: 0.5%;
+}
+.text-book{
+    padding: 3% 20%;
+    margin: 2% 0;
+    box-shadow: 1px 1px 50px 1px rgb(133, 133, 133);
+    border-radius: 1%;
+}
+.text-book p, .donate p, .contact p{
+    font-size: 15px;
+}
+.request{
+    margin-top: 5%;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5% 20%;
+}
+.row label{
+    font-size: 18px;
+    padding: 1%;
+}
+.row input{
+    outline: none;
+    height: 20px;
+    width: 60%;
+    padding: 1%;
+}
+.row input:focus{
+    border: 1px solid orange;
+}
+.btn{
+    margin-top: 5%;
+    padding: 1%;
+    width: 80px;
+    height: 40px;
+    border: 1px solid orange;
+    background-color: transparent;
+}
+.btn:hover{
+    background-color: orange;
+    border-radius: 2%;
+}
+.tutorials{
+    padding: 0 10%;
+}
+.module-head{
+    height: fit-content;
+}
+.module{
+    display: block;
+    padding-top: 10%;
+    text-align: center;
+}
+.module h2{
+    margin-top: 5%;
+    color: #d40083;
+}
+.module p{
+    color: blue;
+}
+.module h1{
+    font-size: 3em;
+    padding: 10px;
+}
+.module-row{
+    display: flex;
+    padding: 30px;
+    height: fit-content;
+    padding: 0 7%;
+    margin: 3% 10% 10% 10%;
+}
+.toggle{
+    width: 100%;
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.module-wrapper{
+    margin-bottom: 20px;
+}
+.module-content{
+    position: relative;
+    font-size: 14px;
+    color: black;
+    text-align: justify;
+    line-height: 30px;
+    height: 0;
+    overflow: hidden;
+    transition: all 1s;
+}
+.module-content ul li{
+    list-style: square;
+    color: black;
+    font-size: 18px;
+    margin: 1% 0;
+}
+.link{
+    color: orange;
+    text-decoration: none;
+}
+.contact-wrapper{
+    font-size: larger;
+    padding: 0% 30%;
+}
+footer{
+    padding: 1%;
+    width: auto;
+    margin: 5% 0 0 0;
+    background-color: chocolate;
+}
+.top{
+    z-index: 5;
+    padding: 1%;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top: -5vh;
+    left: 45vw;
+}
+@media (max-width: 768px) {
+    img{
+        width: 30%;
+        left: 35%;
+        margin: 5% 0;
+    }
+    .intro, .text-book p, .contact p{
+        padding: 0% 15%;
+        margin: 2% 0;
+    }
+    .ad{
+        margin: 15% 0;
+    }
+    .task-wapper{
+        margin: 0;
+        padding: 0;
+    }
+    .row{
+        padding: 2.5% 3%;
+    }
+    .text-book, .contact{
+        padding: 3%;
+    }
+    .row label{
+        font-size: 14px;
+        padding: 1% 0;
+    }
+    .contact-wrapper, .contact-wrapper a{
+        padding: 5%;
+        margin: 0 5%;
+        flex-direction: column;
+    }
+    .top{
+        left: 40vw;
+        top: -3vh;
+    }
+
 }

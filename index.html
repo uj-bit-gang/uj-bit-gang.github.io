@@ -5,11 +5,204 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favcon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
 </head>
 <body>
-    <h1>Welcome php</h1>
-    <i class="zmdi zmdi-spinner"></i>
-    <a href="sedx.html">change</a>
+    <p style="font-size: 11px;">Website is updated @18:00 everyday.</p> 
+    <div class="header">
+        <img src="images/logo.jpg" alt="university of johannesburg logo">
+        <h1>UJ Business IT Gang</h1>
+        <p>2021</p>
+    </div>
+
+    <div class="intro">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non, dolores sint voluptas necessitatibus harum nesciunt natus magnam cumque 
+            laudantium hic voluptate, ut doloribus a, fuga corrupti tempora quasi sit?
+        </p>
+    </div>
+
+    
+
+    <div class="task-wapper">
+    <h2>Due dates</h2>    
+        <div class="tasks">
+            <table>
+                <tr class="table-head">
+                    <td class="count">No.</td>
+                    <td>Module</td>
+                    <td>Task</td>
+                    <td>Due date</td>
+                    <td>Time</td>
+                </tr>
+
+                <!-------New ttask here---------->
+
+                <tr class="table-task">
+                    <td class="count line">3.</td>
+                    <td class="line">DSW</td>
+                    <td class="line">Code Challange 1</td>
+                    <td class="line">27/02/2021</td>
+                    <td class="line">12am</td>
+                </tr>
+                <tr class="table-task this-week">
+                    <td class="count line">2.</td>
+                    <td class="line">DSW</td>
+                    <td class="line">Code Challange 1</td>
+                    <td class="line">27/02/2021</td>
+                    <td class="line">12am</td>
+                </tr>
+                <tr class="table-task complete">
+                    <td>1.</td>
+                    <td>DSW</td>
+                    <td>Code Challange 1</td>
+                    <td>27/02/2021</td>
+                    <td>12am</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="ad">
+            <p>advert here</p>
+        </div>
+
+        <div class="text-book">
+            <h2>Request a text-book</h2>
+            <p>Need a text-book? Fill this form with your student number and email. The text-books shared here are stictly for University of Johannesburg 
+                Business IT students. <br> Student number will be verified before text-book is emailed to you.
+            </p>
+            <div class="request">
+                <form action="https://newginvestments.co.za/student/email.php" method="post">
+                    <div class="row">
+                        <label for="student">Student Number:</label>
+                        <input type="number" name="student" id="student" placeholder="220022914" required>
+                    </div>
+                    <div class="row">
+                        <label for="student">Student Email:</label>
+                        <input type="text" name="email" id="email" placeholder="220022914@student.uj.ac.za" required>
+                    </div>
+                    <div class="row">
+                        <label for="student">DSW:</label>
+                        <input type="checkbox" name="dsw" id="dsw">
+                        <label for="student">SSW:</label>
+                        <input type="checkbox" name="ssw" id="ssw">
+                        <label for="student">IFS:</label>
+                        <input type="checkbox" name="ifs" id="ifs">
+                        <label for="student">BAY:</label>
+                        <input type="checkbox" name="bay" id="bay">
+                    </div>
+                    <input class="btn" type="submit" value="submit">
+                </form>
+            </div>
+        </div>
+
+        <div class="ad">
+            <p>advert here</p>
+        </div>
+<!------------------------------------------------------------------------------
+                    BAY
+-------------------------------------------------------------------------------->
+
+        <div class="tutorials">
+            <h2>Tutorials</h2>
+            <div class="module-wrapper">
+                <button class="toggle">
+                    <h4>1. Business Analysis Tutorials</h4>
+                    <i class="fa fa-plus icon" aria-hidden="true"></i>
+                </button>
+                <div class="module-content">
+                    <ul>
+                        <li>praesentium commodi soluta porro velit tempore odio. <a class="link" href="">View/Download</a></li>
+                        <li>praesentium commodi soluta porro velit tempore odio. <a class="link" href="">View/Download</a></li>
+                        <li>praesentium commodi soluta porro velit tempore odio. <a class="link" href="">View/Download</a></li>
+                        <li>praesentium commodi soluta porro velit tempore odio. <a class="link" href="">View/Download</a></li>
+                    </ul>
+                </div>
+            </div>
+<!------------------------------------------------------------------------------
+                    DSW
+-------------------------------------------------------------------------------->
+
+            <div class="module-wrapper">
+                <button class="toggle">
+                    <h4>2. Development Software Tutorials</h4>
+                    <i class="fa fa-plus icon" aria-hidden="true"></i>
+                </button>
+                <div class="module-content">
+                    <ul>
+                        <li>praesentium commodi soluta porro velit tempore odio. <a class="link" href="">View/Download</a></li>
+                        <li>praesentium commodi soluta porro velit tempore odio. <a class="link" href="">View/Download</a></li>
+                        <li>praesentium commodi soluta porro velit tempore odio. <a class="link" href="">View/Download</a></li>
+                        <li>praesentium commodi soluta porro velit tempore odio. <a class="link" href="">View/Download</a></li>
+                    </ul>
+                </div>
+            </div>
+<!------------------------------------------------------------------------------
+                    SSW
+-------------------------------------------------------------------------------->
+
+            <div class="module-wrapper">
+                <button class="toggle">
+                    <h4>3. Systems Software Tutorials</h4>
+                    <i class="fa fa-plus icon" aria-hidden="true"></i>
+                </button>
+                <div class="module-content">
+                    <ul>
+                        <li>praesentium commodi soluta porro velit tempore odio. <a class="link" href="">View/Download</a></li>
+                        <li>praesentium commodi soluta porro velit tempore odio. <a class="link" href="">View/Download</a></li>
+                        <li>praesentium commodi soluta porro velit tempore odio. <a class="link" href="">View/Download</a></li>
+                        <li>praesentium commodi soluta porro velit tempore odio. <a class="link" href="">View/Download</a></li>
+                    </ul>
+                </div>
+            </div>
+<!------------------------------------------------------------------------------
+                    IFS
+-------------------------------------------------------------------------------->
+            <div class="module-wrapper">
+                <button class="toggle">
+                    <h4>4. Infomation Systems Tutorials</h4>
+                    <i class="fa fa-plus icon" aria-hidden="true"></i>
+                </button>
+                <div class="module-content">
+                    <ul>
+                        <li>praesentium commodi soluta porro velit tempore odio. <a class="link" href="">View/Download</a></li>
+                        <li>praesentium commodi soluta porro velit tempore odio. <a class="link" href="">View/Download</a></li>
+                        <li>praesentium commodi soluta porro velit tempore odio. <a class="link" href="">View/Download</a></li>
+                        <li>praesentium commodi soluta porro velit tempore odio. <a class="link" href="">View/Download</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="ad">
+            <p>advert here</p>
+        </div>
+
+        <div class="donate">
+            <h2>Donate</h2>
+            <p>This website helped you somehow or you Want all these ads gone? Please make a donatin from as little as R5.00 for us to keep the site up, up-to-date and ad free.</p>
+
+            <p>Sercure payments via <img class="payfast-img" src="https://www.payfast.co.za/assets/images/logos-and-images/payfast-logo-black.svg" alt="payfast-logo-black"></p>
+        </div>
+
+        <div class="contact">
+            <h2>Contact</h2>
+            <p>There is incorrect information, want to leave a feedback or you just want to chat? Here you can reach us.</p>
+            <div class="contact-wrapper row">
+                <a class="link" href="mailto:22002919@student.uj.ac.za"><div><i></i>Email</div></a>
+                <a class="link" href="+27681721606"><div><i></i>+27 68 172 1606</div></a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="ad">
+                <p>advert here</p>
+            </div>
+            <p style="font-size: small;">Designed by 220023913</p>
+        </div>
+        <a class="top link" href="">Top</a>
+    </footer>   
+    <script src="script.js"></script>
 </body>
 </html>
