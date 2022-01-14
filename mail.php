@@ -9,13 +9,13 @@ $ssw .= $_POST['ssw'];
 $word = "@student.uj.ac.za";
  
 if(strpos($visitor_email, $word) == false){
-    header("location: fail.html");
+    header("location: https://uj-bit-gang.github.io/fail.html");
     exit();
 } else{
     $to = "220023913@student.uj.ac.za";
     $subject = "Text Book Request";
         
-    $message = "Student: .$name with email: $visitor_email";
+    $message = "Student: $name with email: $visitor_email";
     $message .= "Request: $dsw, $ssw, $dsw, $bay text-book(s)";
             
     $header = "From:info@newginvestments.co.za \r\n";
