@@ -191,6 +191,11 @@ footer{
     margin: 5% 0 0 0;
     background-color: chocolate;
 }
+.payfast-img{
+    box-shadow: none !important;
+    width: 50px;
+    margin: 0 0 0 12px;
+}
 .top{
     z-index: 5;
     padding: 1%;
