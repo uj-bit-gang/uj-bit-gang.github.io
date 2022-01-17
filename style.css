@@ -83,6 +83,13 @@ table{
 .count{
     width: 2% !important;
 }
+.bold {
+    font-weight: 600;
+}
+.alone{
+    padding: 0% !important;
+    margin: 0 !important;
+}
 .table-head td{
     width: 5%;
     padding: 1%;
@@ -284,6 +291,9 @@ footer{
 .zmdi::before{
     color: orange;
     font-size: 60px;
+}
+.zmdi-download::before{
+    font-size: 25px;
 }
 .zmdi-android::before{
     font-size: 15px !important;
