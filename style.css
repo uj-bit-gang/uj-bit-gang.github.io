@@ -2,6 +2,7 @@
 
 *{
     font-family: 'Source Sans Pro', sans-serif;
+    scroll-behavior: smooth;
 }
 body{
     text-align: center;
@@ -88,6 +89,33 @@ table{
 }
 .table-task td{
     padding: 0.5%;
+}
+.announcements{
+    transition: 2s ease-in-out;
+    margin: 20px 10%;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px -5px rgb(209, 209, 209);
+}
+.announcements:hover{
+    box-shadow: 0 10px 10px -5px orange;
+}
+.announcements-wrapper{
+    height: 65vh;
+    overflow: auto;
+    text-align: left;
+    padding: 30px;
+}
+.announcements-wrapper::-webkit-scrollbar{
+    background-color: orange;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 0px;
+}
+.announcements-wrapper table{
+    border: none;
+}
+.announcements-wrapper table tr td{
+    padding: 1.5%;
 }
 .text-book{
     padding: 3% 20%;
@@ -240,9 +268,25 @@ footer{
     left: 90vw;
     flex-direction: column;
 }
+.App::before{
+    width: 40px;
+    height: 40px;
+    z-index: 5;
+    
+    padding: 1%;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top: -5vh;
+    left: 0vw;
+    flex-direction: column;
+}
 .zmdi::before{
     color: orange;
     font-size: 60px;
+}
+.zmdi-android::before{
+    font-size: 15px !important;
 }
 .zmdi-unfold-more::before{
     margin-left: 20px;
@@ -352,5 +396,11 @@ footer{
     .thank-ad{
         height: 50px !important;
         width: 100vw;
+    }
+    .announcements{
+        margin: 20px 5%;
+    }
+    .announcements-wrapper{
+        padding: 25px;
     }
 }
