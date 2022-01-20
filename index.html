@@ -232,7 +232,7 @@
 
             <div class="module-wrapper">
                 <button class="toggle">
-                    <h4>3. Systems Software Tutorials<i class="zmdi zmdi-unfold-more"></i></h4>
+                    <h4>3. communicaion Networks Tutorials<i class="zmdi zmdi-unfold-more"></i></h4>
                     <i class="fa fa-plus icon" aria-hidden="true"></i>
                 </button>
                 <div class="module-content">
@@ -285,14 +285,14 @@
                 <script language="JavaScript" type="text/javascript">
 
                     function click_3db0f0d1ca30c3edb779ba42440f53a1( aform_reference ) {
-                                var aform = aform_reference;
-                                aform['amount'].value = Math.round( aform['amount'].value*Math.pow( 10,2 ) )/Math.pow( 10,2 );
-                                aform['custom_amount'].value = aform['custom_amount'].value.replace( /^\s+|\s+$/g,"" );
-                                if( !aform['custom_amount'].value || 0 === aform['custom_amount'].value.length || /^\s*$/.test( aform['custom_amount'].value ) ) {
-                                    alert ( 'An amount is required' );
-                                    return false;
-                                }
-                                aform['amount'].value = Math.round( aform['custom_amount'].value*Math.pow( 10,2 ) )/Math.pow( 10,2 );
+                        var aform = aform_reference;
+                        aform['amount'].value = Math.round( aform['amount'].value*Math.pow( 10,2 ) )/Math.pow( 10,2 );
+                        aform['custom_amount'].value = aform['custom_amount'].value.replace( /^\s+|\s+$/g,"" );
+                        if( !aform['custom_amount'].value || 0 === aform['custom_amount'].value.length || /^\s*$/.test( aform['custom_amount'].value ) ) {
+                            alert ( 'An amount is required' );
+                            return false;
+                        }
+                        aform['amount'].value = Math.round( aform['custom_amount'].value*Math.pow( 10,2 ) )/Math.pow( 10,2 );
                     }
                 </script>
                 <form action="https://www.payfast.co.za/eng/process" name="form_3db0f0d1ca30c3edb779ba42440f53a1" onsubmit="return click_3db0f0d1ca30c3edb779ba42440f53a1( this );" method="post">
