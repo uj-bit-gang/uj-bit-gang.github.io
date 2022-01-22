@@ -209,6 +209,7 @@ table{
 }
 .module-wrapper{
     margin-bottom: 20px;
+    text-align: left !important;
 }
 .module-content{
     position: relative;
@@ -369,6 +370,9 @@ footer{
     }
     .tutorials{
         padding: 20px 5%;
+    }
+    .toggle{
+        text-align: left !important;
     }
     .row label{
         font-size: 14px;
