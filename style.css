@@ -113,10 +113,10 @@ table{
     padding: 30px;
 }
 .announcements-wrapper::-webkit-scrollbar{
-    background-color: orange;
-    border: 1px solid white;
+    background-color: white;
+    border: 1px solid orange;
     border-radius: 5px;
-    width: 0px;
+    width: 1px;
 }
 .announcements-wrapper table{
     border: none;
