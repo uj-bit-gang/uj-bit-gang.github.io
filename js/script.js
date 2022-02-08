@@ -5,7 +5,7 @@ let icons = document.getElementsByClassName('icon');
 for (let i=0; i < toggles.length; i++) {
     toggles[i].addEventListener('click', ()=>{
         if(parseInt(conentDiv[i].style.height) != conentDiv[i].scrollHeight){conentDiv[i].style.height = conentDiv[i].scrollHeight + 'px'; 
-        toggles[i].style.color = "orange"; 
+        toggles[i].style.color = "#f76b00"; 
         icons[i].classList.remove('fa-plus'); 
         icons[i].classList.add('fa-minus');
         }

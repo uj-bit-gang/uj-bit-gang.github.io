@@ -3,6 +3,7 @@
 *{
     font-family: 'Source Sans Pro', sans-serif;
     scroll-behavior: smooth;
+    --icons: #f76b00;
 }
 body{
     text-align: center;
@@ -32,11 +33,11 @@ i{
 }
 img{
     text-align: center;
-    width: 10vw;
+    width: 15vw;
     height: auto;
     align-self: center;
     margin: 3% 0 3% 0;
-    border-radius: 5%;
+    border-radius: 50%;
     box-shadow: 1px 1px 50px 1px rgb(133, 133, 133) ;
 }
 .header{
@@ -57,7 +58,7 @@ img{
 }
 .task-wapper{
     text-align: center;
-    margin: 0 10%; 
+    margin: 0 10% 10% 10%; 
     padding: 20px;
 }
 .complete{
@@ -99,7 +100,7 @@ table{
 }
 .announcements{
     transition: 2s ease-in-out;
-    margin: 20px 10%;
+    margin: 10% 10%;
     border-radius: 10px;
     box-shadow: 0 10px 10px -5px rgb(209, 209, 209);
 }
@@ -126,7 +127,7 @@ table{
 }
 .text-book{
     padding: 3% 20%;
-    margin: 2% 0;
+    margin: 2% 10%;
     box-shadow: 1px 1px 50px 1px rgb(133, 133, 133);
     border-radius: 1%;
 }
@@ -139,7 +140,7 @@ table{
 .row{
     display: flex;
     justify-content: space-between;
-    padding: 0.5% 20%;
+    padding: 0.5% 15%;
 }
 .row label{
     font-size: 18px;
@@ -222,17 +223,22 @@ table{
     transition: all 1s;
 }
 .module-content ul li{
-    list-style: square;
+    list-style: circle;
     color: black;
     font-size: 18px;
-    margin: 1% 0;
+    margin: 1% 5%;
 }
 .link{
-    color: orange;
+    color: var(--icons);
     text-decoration: none;
+}
+.underline{
+    border-bottom: 5px solid black;
+    margin: 5% 10%;
 }
 .donate, .contact{
     padding: 20px;
+    margin: 5% 0;
 }
 .donate-form{
     padding: 0% 40%;
@@ -290,7 +296,7 @@ footer{
     flex-direction: column;
 }
 .zmdi::before{
-    color: orange;
+    color: var(--icons);
     font-size: 60px;
 }
 .zmdi-download::before{
@@ -312,7 +318,7 @@ footer{
 }
 /******************Thank You Page********************/
 .thank-you, .success{
-    margin-top: 7.5%;
+    margin-top: 5%;
 }
 .thank-you-p{
     font-style: italic !important;
@@ -341,7 +347,41 @@ footer{
 .zmdi-alert-triangle::before{
     font-size: 12em !important;
 }
-/*****************Mobile Screens*-**********************/
+/*******************Login******************************/
+.login{
+    background: linear-gradient(-190deg, #3a1c7131 0%, #fdbb2d34 100%);
+    margin: 10% 20%;
+    border-radius: 3px;
+    padding: 1% 1% 4% 1%;
+    box-shadow: #fdbb2d62 0px 1px 2px, #3a1c7157 0px 2px 4px, #fdbb2d62 0px 4px 8px, #3a1c7157 0px 8px 16px, #fdbb2d62 0px 16px 32px, #3a1c7157 0px 32px 64px;
+}
+.login form{
+ padding: 0 20%;
+}
+.login form h3{
+    font-size: 2em;
+}
+.login form label{
+    margin: 2% 0; 
+}
+.login form input{
+    margin: 2% 0;
+    outline: none;
+    border: none;
+    padding: 1% 3%;
+    font-size: 14px;
+    width: 10vw;
+}
+.login form button{
+    width: 150px !important;
+    height: 50px !important;
+    padding: 1% !important;
+    text-align: center !important;
+}
+.zmdi-key::before{
+   font-size: 20px !important;
+}
+/*****************Mobile Screens***********************/
 @media (max-width: 768px) {
     img{
         width: 30%;
@@ -364,6 +404,9 @@ footer{
     }
     .row{
         padding: 2.5% 3%;
+    }
+    .text-book{
+        margin-top: 10%;
     }
     .text-book, .contact{
         padding: 3%;
@@ -412,7 +455,7 @@ footer{
         width: 100vw;
     }
     .announcements{
-        margin: 20px 5%;
+        margin: 10% 5%;
     }
     .announcements-wrapper{
         padding: 25px;
