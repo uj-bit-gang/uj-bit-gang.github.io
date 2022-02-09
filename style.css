@@ -344,7 +344,7 @@ footer{
 .zmdi-notifications-active::before{
     font-size: 15em;
 }
-.zmdi-alert-triangle::before{
+.zmdi-alert-triangle::before, .zmdi-traffic::before{
     font-size: 12em !important;
 }
 /*******************Login******************************/
@@ -380,6 +380,16 @@ footer{
 }
 .zmdi-key::before{
    font-size: 20px !important;
+}
+/*******************404 Page************************/
+.not-found{
+    margin-top: 4.5%;
+}
+.not-found p{
+    margin: 0.9%;
+}
+.redirect{
+    margin-top: 4.55%;
 }
 /*****************Mobile Screens***********************/
 @media (max-width: 768px) {
