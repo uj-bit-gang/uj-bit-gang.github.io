@@ -15,7 +15,7 @@ if($ifs == true){
     $ifs = "Click on the link to access IFS Textbook(s) https://1drv.ms/b/s!AvvgY06e9tmAg6kKMFE-0Yy1k0wsNQ?e=YNuGfv";
 }
 if($ssw == true){
-    $ssw = "Click on the link to access SSW Textbook(s) ";
+    $ssw = "Click on the link to access CMN Textbook(s) https://1drv.ms/u/s!AvvgY06e9tmAg6kXTCbpPkXK6-T7KQ?e=1fheQN";
 }
 if($dsw == true){
     $dsw = "Click on the link to access DSW Textbook(s) ";
