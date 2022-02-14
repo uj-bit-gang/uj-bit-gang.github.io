@@ -9,27 +9,27 @@ $ssw .= $_POST['ssw'];
 $word = "@student.uj.ac.za";
 
 if($bay == true){
-    $bay = "BAY";
+    $bay = "Click on the link to access BAY Textbook(s) https://1drv.ms/u/s!AvvgY06e9tmAg6kQrrScdmZ9Ntqslg?e=xehzwz";
 }
 if($ifs == true){
-    $ifs = "IFS";
+    $ifs = "Click on the link to access IFS Textbook(s) https://1drv.ms/b/s!AvvgY06e9tmAg6kKMFE-0Yy1k0wsNQ?e=YNuGfv";
 }
 if($ssw == true){
-    $ssw = "SSW";
+    $ssw = "Click on the link to access SSW Textbook(s) ";
 }
 if($dsw == true){
-    $dsw = "DSW";
+    $dsw = "Click on the link to access DSW Textbook(s) ";
 }
  
 if(strpos($visitor_email, $word) == false){
     header("location: https://uj-bit-gang.github.io/fail.html");
     exit();
 } else{
-    $to = "220023913@student.uj.ac.za";
+    $to = $visitor_email;
     $subject = "Text Book Request";
         
-    $message = "Student: $name with email: $visitor_email";
-    $message .= "Request: $dsw ___ $ssw ___ $ifs ___ $bay text-book(s)";
+    $message = "Student: $name with email: $visitor_email<br>";
+    $message .= "Request: <br>$dsw<br>$ssw<br>$ifs<br>$bay";
             
     $header = "From:info@newginvestments.co.za \r\n";
     $header .= "MIME-Version: 1.0\r\n";
