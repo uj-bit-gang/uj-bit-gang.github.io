@@ -18,7 +18,7 @@ if($ssw == true){
     $ssw = "Click on the link to access CMN Textbook(s) https://1drv.ms/u/s!AvvgY06e9tmAg6kXTCbpPkXK6-T7KQ?e=1fheQN";
 }
 if($dsw == true){
-    $dsw = "Click on the link to access DSW Textbook(s) ";
+    $dsw = "Click on the link to access DSW Textbook(s) https://1drv.ms/b/s!AvvgY06e9tmAg6kegoUk3FeevEIy2A?e=jDbPTS";
 }
  
 if(strpos($visitor_email, $word) == false){
