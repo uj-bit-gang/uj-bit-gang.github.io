@@ -1,9 +1,17 @@
-# uj-bit-gang.github.io
+# Website is hosted on https://www.mintme.host/ (3 months).
+# Doman name bought on https://www.godaddy.com/ (1 year).
+# SSL Certificate is for 1 year.
 
-# Website with updates daily for Business IT students @University of Johannesburg
+# The website was just for learning purposes only and it is intended for students who do Business IT at @universty of Johanessburg.
 
-# Website is updated many times a day.
+# ---Access to the website---
+# -You need UJ BIT student valid student number to log in.
+# -All student number are hashed and stored in the database.
+# -You can not access the welome page with out loging in.
 
-# The mail.php file is hosted on my personal server as github does no run .php files and only accepts @student.uj.ac.za emais
+# --Complains, bugs and suggestions--
+# -If there is somehing you do not like on the site please report it to me.
+# -You foud any bugs? Please let me know.
+# -You want to see something that is not there, yet? Tell me I'll kindly add it.
 
-# Please do no sabotage the website, rather contact us if there is something you want removed
+# The does not collect any information about any one, but ads are coming soon!
