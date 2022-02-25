@@ -22,7 +22,7 @@ if($dsw == true){
 }
  
 if(strpos($visitor_email, $word) == false){
-    header("location: https://uj-bit-gang.github.io/fail.html");
+    header("location: fail");
     exit();
 } else{
     $to = $visitor_email;
@@ -31,17 +31,17 @@ if(strpos($visitor_email, $word) == false){
     $message = "Student: $name with email: $visitor_email<br>";
     $message .= "Request: <br>$dsw<br>$ssw<br>$ifs<br>$bay";
             
-    $header = "From:info@newginvestments.co.za \r\n";
+    $header = "From:admin@ujbitgang.online \r\n";
     $header .= "MIME-Version: 1.0\r\n";
     $header .= "Content-type: text/html\r\n";
             
     $retval = mail ($to,$subject,$message,$header);
             
         if( $retval == true ) {
-            header("location: https://uj-bit-gang.github.io/success.html");
+            header("location: successl");
             exit();
         }else {
-            header("location: https://uj-bit-gang.github.io/fail.html");
+            header("location: fail");
         }
     }
 ?>     
