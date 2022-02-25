@@ -13,9 +13,9 @@ if($user != $pin){
       $_SESSION['loggedin'] = TRUE;
       $_SESSION['name'] = $_POST['student'];
       $_SESSION['id'] = $user;
-      header("location: welcome");
+      header("location: welcome.php");
    }else
-      header("location: fail");
+      header("location: fail.html");
       exit("Wrong student number");
 }else
 $student_ids = [];

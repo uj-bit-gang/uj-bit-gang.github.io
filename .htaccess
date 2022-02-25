@@ -1,26 +1,4 @@
-RewriteEngine on
-RewriteCond %{HTTPS} !=on
-RewriteRule . https://%{HTTP_HOST}%{REQUEST_URI} [L,NE]
+RewriteEngine On 
+RewriteCond %{HTTPS} off 
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^www\.ujbitgang\.online$ [NC]
-RewriteRule ^(.*)$ http://happyuser.com/$1 [R=301,L]
-
-RewriteEngine On
-RewriteBase /
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule (.*) index.php?q=$1 [L]
-
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.html [NC, L]
-
-RewriteEngine on
-ErrorDocument 404   https://ujbitgang.online/errors/404page.php
-
-RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^ - [R=404,L]

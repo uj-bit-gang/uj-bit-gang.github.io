@@ -22,7 +22,7 @@ include("config.php");
     </main>
     <footer>
         <div class="footer">
-            <p style="font-size: small;">Designed by 220023913</p>
+            <p style="font-size: small;">Designed by **********</p>
             <p style="font-size: small;">copyright reserved</p>
         </div>
 

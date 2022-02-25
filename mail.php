@@ -22,7 +22,7 @@ if($dsw == true){
 }
  
 if(strpos($visitor_email, $word) == false){
-    header("location: fail");
+    header("location: fail.html");
     exit();
 } else{
     $to = $visitor_email;
@@ -38,10 +38,10 @@ if(strpos($visitor_email, $word) == false){
     $retval = mail ($to,$subject,$message,$header);
             
         if( $retval == true ) {
-            header("location: successl");
+            header("location: successl.html");
             exit();
         }else {
-            header("location: fail");
+            header("location: fail.html");
         }
     }
 ?>     

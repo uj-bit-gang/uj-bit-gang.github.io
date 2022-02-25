@@ -11,7 +11,7 @@
    $login_session = $row['student'];
    
    if(!isset($_SESSION['login_user'])){
-      header("location: login");
+      header("location: login.html");
       die();
    }
 ?>

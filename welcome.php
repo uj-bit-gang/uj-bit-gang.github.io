@@ -71,6 +71,39 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                     <td class="line"></td>
                     <td class="line"></td>
                 </tr> -->
+
+
+                <tr class="table-task">
+                    <td class="count line">5.</td>
+                    <td class="line">BAY</td>
+                    <td class="line">LU2  Group Ass</td>
+                    <td class="line">03/03/2022</td>
+                    <td class="line">23:59</td>
+                </tr>
+
+                <tr class="table-task this-week">
+                    <td class="count line">4.</td>
+                    <td class="line">IFS</td>
+                    <td class="line">LU3 Weekly Quiz</td>
+                    <td class="line">25/02/2022</td>
+                    <td class="line">23:59</td>
+                </tr>
+
+                <tr class="table-task complete">
+                    <td class="count line">3.</td>
+                    <td class="line">IFS</td>
+                    <td class="line">LU1&2 Weekly Quiz</td>
+                    <td class="line">18/02/2022</td>
+                    <td class="line">23:59</td>
+                </tr>
+
+                <tr class="table-task complete">
+                    <td class="count line">2.</td>
+                    <td class="line">BAY</td>
+                    <td class="line">LU1 Group Ass</td>
+                    <td class="line">01/03/2022</td>
+                    <td class="line">23:59</td>
+                </tr>
                 
                 <tr class="table-task complete">
                     <td>1.</td>
@@ -294,7 +327,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                 <input type="hidden" name="item_name" value="UJ BIT Gang Donation">
                 <input type="hidden" name="amount" value="5.00">
                 <input type="hidden" name="item_description" value="">
-                <input type="hidden" name="return_url" value="https://ujbitgang.online/thank-you">
+                <input type="hidden" name="return_url" value="https://ujbitgang.online/thank-you.html">
                 <input type="hidden" name="cancel_url" value="https://ujbitgang.online/">
                 
                 <table class="donate-table">
