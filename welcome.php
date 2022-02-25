@@ -362,6 +362,9 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         <div class="footer">
             <p style="font-size: small;">Designed by 220023913</p>
             <p style="font-size: small;">copyright reserved</p>
+            <div>
+                <a href="https://github.com/uj-bit-gang/uj-bit-gang.github.io" class="link"><div><i style="font-size: small; height: 20px;"></i></div></a>class="zmdi zmdi-github"></i><p>Source Code</p></div></a>
+            </div>
             <div class="scroll">
                 <a href="#head"><i class="zmdi zmdi-chevron-up"></i></a>
             </div>
