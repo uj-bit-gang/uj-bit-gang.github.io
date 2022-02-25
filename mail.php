@@ -28,8 +28,8 @@ if(strpos($visitor_email, $word) == false){
     $to = $visitor_email;
     $subject = "Text Book Request";
         
-    $message = "Student: $name with email: $visitor_email<br>";
-    $message .= "Request: <br>$dsw<br>$ssw<br>$ifs<br>$bay";
+    $message = "Student: $name with email: $visitor_email<br><br>";
+    $message .= "Request: <br>$dsw<br><br>$ssw<br><br>$ifs<br><br>$bay";
             
     $header = "From:admin@ujbitgang.online \r\n";
     $header .= "MIME-Version: 1.0\r\n";
@@ -38,7 +38,7 @@ if(strpos($visitor_email, $word) == false){
     $retval = mail ($to,$subject,$message,$header);
             
         if( $retval == true ) {
-            header("location: successl.html");
+            header("location: success.html");
             exit();
         }else {
             header("location: fail.html");
