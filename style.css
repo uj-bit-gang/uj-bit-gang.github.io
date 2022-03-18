@@ -489,3 +489,29 @@ footer{
         visibility: hidden;
     }
 }
+/*-------------------------------------------
+-------------------Admin--------------------
+--------------------------------------------*/
+.admin{
+    margin-top: 40px;
+}
+.admin > form{
+    margin: 0 35%;
+}
+td{
+    text-align: left;
+}
+td > label{
+    margin-right: 50px;
+}
+td > select, td > input{
+    width: 100%;
+    padding: 5px;
+    width: 200px;
+    outline: none;
+}
+.submit{
+    margin: 50px;
+    padding: 5px;
+    font-size: 14px;
+}
